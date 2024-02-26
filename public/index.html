@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.jpg" alt="Tic Tac Toe Logo" class="logo">
+        </header>
+        <main>
+            <h1>Welcome to Online Tic Tac Toe</h1>
+            <p>Choose an option below:</p>
+            <div class="options">
+                <button id="new-game-button" class="create">Create a Game</button>
+                <button id="join-game-button" class="join">Join a Game</button>
+            </div>
+            <div id="join-game-modal" class="modal">
+                <div class="modal-content">
+                    <span id="join-game-close" class="close">&times;</span>
+                    <h2>Join a Game</h2>
+                    <form>
+                        <label for="roomId">Room ID:</label>
+                        <input type="text" id="join-game-input" name="roomId">
+                        <button id="join-game-submit" type="submit" class="join-btn">Join</button>
+                    </form>
+                </div>
+            </div>
+    </div>
+    </main>
+    <footer>
+        <a href="https://github.com/Bruno-Brandao-Silva">@Bruno</a>
+    </footer>
+    </div>
+</body>
+
+</html>
