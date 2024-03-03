@@ -4,12 +4,6 @@
 
 O Jogo da Velha é um jogo clássico para dois jogadores, onde os participantes alternam marcando espaços em uma grade 3x3 com 'X' ou 'O'. O jogador que conseguir colocar três de suas marcações em uma linha horizontal, vertical ou diagonal ganha o jogo. Este projeto implementa o Jogo da Velha usando HTML5 Canvas para renderizar o tabuleiro do jogo e cria um servidor REST com Express.js para possibilitar a criação de salas de jogos que utilizam Socket.IO para a comunicação em tempo real.
 
-## Imagens
-
- ![Tela inicial](/assets/image.png)
- ![Tela do tabuleiro](/assets/image-1.png)
- ![Tela 404](/assets/image-2.png)
-
 ## Recursos
 
 - Interface de usuário simples e intuitiva.
