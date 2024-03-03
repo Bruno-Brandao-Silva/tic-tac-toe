@@ -39,3 +39,16 @@ a {
 a:hover {
     background-color: #0056b3;
 }
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer>a {
+    background-color: transparent;
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+    padding: 5px;
+}
